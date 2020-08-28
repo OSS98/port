@@ -21,6 +21,10 @@
           padding-bottom: 0.5rem;
           font-size:medium;
         }
+        
+        .card{
+          margin-bottom: 1rem;
+        }
 
     </style>
     <title>Suphachai Portfolio</title>
@@ -36,7 +40,7 @@
         class="nav-link badge badge-pill  badge-info"
         target="_blank"
         href="https://www.facebook.com/suphachai.sriwised"
-        style="font-size: medium; background-color: #45B39D;margin: 0.5rem;"
+        style="font-size: 1vw; background-color: #45B39D;margin: 0.5rem;"
         data-toggle="tooltip"
         title="Suphachai Sriwised"
         id="logo"
@@ -46,7 +50,7 @@
       <a
         class="nav-link badge badge-pill  badge-info"
         href="#"
-        style="font-size: medium; background-color: #73C6B6 ;margin: 0.5rem"
+        style="font-size: 1vw; background-color: #73C6B6 ;margin: 0.5rem"
         data-toggle="tooltip"
         title="laio2541@gmail.com"
         id="logo"
@@ -55,68 +59,67 @@
         Gmail
       </a>
     </nav>
-    <div class="container" style="background: white;">
+    
+    <div class="container" style="background: white;font-size: 1vw;">
 
       <div class="row justify-content-center text-center">
         <div
           class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5"
           style="border-radius: 40px; background: black;padding-top: 1rem;padding-bottom: 1rem;margin-top: 0.5rem;"
         >
-          <h2 style="color: white;">I'm</h2>
-          <span class="badge badge-pill badge-info" id="logo" style="background-color: #7DCEA0;"><h1>Suphachai Sriwised</h1></span>
+          <h2 style="font-size:2vw;color: white;">I'm</h2>
+          <!-- < class="badge badge-pill badge-info" id="logo" style="background-color: #7DCEA0;"> -->
+            <h1 class="badge badge-pill badge-info" style="font-size: 2vw;">Suphachai Sriwised</h1>
           <!-- <h2 style="color: white;"></h2> -->
         </div>
       </div>
 
       <br />
 
-      <div class="row">
+      <div class="row" >
         <div class="col col-sm col-md col-lg col-xl">
-          <span class="badge badge-dark" id="badge-topic">Resume</span>
-
+          <h1 class="badge badge-dark" style="font-size: 1vw;">Personality</h1>
           <hr />
-          <h6>
-            Personal Information
-          </h6>
-          <p>ชื่อ-นามสกุล : นายศุภชัย ศรีวิเศษ</p>
-          <p></p>
-          <h6>Education</h6>
-          <h6>Career Objective</h6>
-          <h6>Work Experience</h6>
-          <h6>Honors/ Awards</h6>
         </div>
 
         <div class="col col-sm col-md col-lg col-xl">
-          <span class="badge  badge-dark" id="badge-topic">Skills</span>
+          <!-- <span class="badge  badge-dark" id="badge-topic">Skills</span> -->
+          <h1 class="badge badge-dark" style="font-size: 1vw;">Skills</h1>
           <hr />
 
           <div class="row">
 
             <div class="col-6">
-              <h4>Fontend</h4>
+              <p>Fontend</p>
               <hr />
-              <p>HTML</p>
-              <p>JavaScript</p>
-              <p>Vue.js</p>
+              <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Vue.js</li>
+              </ul>
             </div>
 
             <div class="col-6">
-              <h4>Backend</h4>
+              <p>Backend</p>
               <hr />
-              <p>PHP</p>
-              <p>Laravel</p>
-              <p>Node.js</p>
-              <p>Flask</p>
-              <p>SQL</p>
-              <p>MongoDB</p>
+              <ul>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>Node.js</li>
+                <li>Flask</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+              </ul>
             </div>
 
             <div class="col-12">
-              <h4>Another</h4>
+              <p>Another</p>
               <hr />
-              <p  >Python</p>
-              <p>C</p>
-              <p>Java</p>
+              <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>Java</li>
+              </ul>
             </div>
 
           </div>
@@ -125,11 +128,11 @@
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
-          <span class="badge  badge-dark" id="badge-topic" >My Project</span>
+          <h1 class="badge badge-dark" style="font-size: 1vw;">Projects</h1>
           <hr />
           <div class="row">
-            <div class="col-6">
-              <div class="card" style="width: 100%;">
+            <div class="col-4">
+              <div class="card">
                 <img class="card-img-top" src="img/sshop.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">SShop</h5>
@@ -137,9 +140,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <div class="card" style="width: 100%;">
-                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="col-4">
+              <div class="card" >
+                <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">งาน 2</h5>
                   <p class="card-text">
@@ -151,9 +154,9 @@
               </div>
             </div>
             
-            <div class="col-6">
-              <div class="card" style="width: 100%;">
-                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="col-4">
+              <div class="card" >
+                <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">งาน 3</h5>
                   <p class="card-text">
@@ -165,9 +168,9 @@
               </div>
             </div>
 
-            <div class="col-6">
-              <div class="card" style="width: 100%;">
-                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="col-4">
+              <div class="card" >
+                <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">งาน 4</h5>
                   <p class="card-text">
@@ -178,9 +181,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <div class="card" style="width: 100%;">
-                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="col-4">
+              <div class="card" >
+                <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">งาน 5</h5>
                   <p class="card-text">
@@ -191,9 +194,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <div class="card" style="width: 100%;">
-                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="col-4">
+              <div class="card" >
+                <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">งาน 6</h5>
                   <p class="card-text">
@@ -213,7 +216,7 @@
         <br>
         <div class="row">
             <div class="col-12">
-            <span class="badge  badge-dark" id="badge-topic">Contact</span>
+              <h1 class="badge badge-dark" style="font-size: 1vw;">Contact</h1>
             <hr>
             <p><span class="badge  badge-success">Tel</span> : 0840181877</p>
             <p><span class="badge  badge-info">Facebook</span> : Suphachai Sriwised</p>
