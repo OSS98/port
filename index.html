@@ -15,17 +15,20 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!-- google font api -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/893285bcd6.js" crossorigin="anonymous"></script>
     <style>
       .card-img-top{
-          width: 20rem;
+     
           height: 15rem;
       }
 
       .card {
         margin-bottom: 1rem;
-        width: 20rem;
-        height: 22rem;
+      
+        height: 20rem;
       }
 
       .btn{
@@ -36,21 +39,37 @@
         width: 30rem;
         height: 30rem;
       }
-      h5{
-        font-size: 1vw;
+      #icon_img{
+        max-width: 100%;
+        /* max-height: 20px; */
+        height: auto;
+      }
+      .nav{
+        background-color: #206a5d;
+      }
+      .card-title{
+        font-size: .8vw;
       }
 
+        #cerpic:hover{
+            opacity: 80%;
+        }
+        .card:hover{
+            opacity: 80%;
+        }
       body{
-        background: #82e0aa; 
+        
         margin-left: 1rem; 
         margin-right: 1rem;
         background-image:url('img/bg.jpg');
-        height: 2000px;
+        height: 1900px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
 
+        font-family: 'Prompt', sans-serif;
       }
+      
       
     </style>
     <title>Suphachai Portfolio</title>
@@ -60,21 +79,21 @@
     <div
       class="container"
       style="
-        background: white;
+        background-color:#f1f1e8;
         font-size: 1vw;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0rem;
+        padding-right: 0rem;
       "
     >
       <!-- nav -->
       <div class="row">
         <div class="col-12">
-          <nav class="nav bg-dark justify-content-end">
+          <nav class="nav justify-content-end">
             <a
               class="nav-link badge badge-pill badge-info"
               target="_blank"
               href="https://www.facebook.com/suphachai.sriwised"
-              style="font-size: 1vw; background-color: #45b39d; margin: 0.5rem"
+              style="font-size: 1vw; background-color: #f1f1e8; margin: 0.5rem;color: #206a5d;"
               data-toggle="tooltip"
               title="Suphachai Sriwised"
             >
@@ -83,7 +102,7 @@
             <a
               class="nav-link badge badge-pill badge-info"
               href="#"
-              style="font-size: 1vw; background-color: #73c6b6; margin: 0.5rem"
+              style="font-size: 1vw; background-color: #f1f1e8; margin: 0.5rem;color: #206a5d;"
               data-toggle="tooltip"
               title="laio2541@gmail.com"
             >
@@ -111,9 +130,9 @@
           "
         >
          
-          <h2 style="font-size: 2vw; color: white">I'm</h2>
+          <h2 style="font-size: 2vw; color: #f1f1e8">I'm</h2>
           <!-- < class="badge badge-pill badge-info" id="logo" style="background-color: #7DCEA0;"> -->
-          <h1 class="badge badge-pill badge-info" style="font-size: 2vw">
+          <h1 class="badge badge-pill" style="font-size: 2vw;background-color: #206a5d;color: #bfdcae;">
             Suphachai Sriwised
           </h1>
           <!-- <h2 style="color: white;"></h2> -->
@@ -127,15 +146,23 @@
 
     <!-- main -->
       <div class="row" style="margin-left: 1rem;margin-right: 1rem">
+        
+        
+        
         <!-- personality -->
-        <div class="col-6 col-sm-6">
+        <div class="col-12 col-sm-6">
           <h1 class="badge badge-dark" style="font-size: 1vw">Personality</h1>
-          <hr />
+          <p>&nbsp;&nbsp;&nbsp;ผมชื่อ ศุภชัย ศรีวิเศษ เป็น นศ. IT ผมเป็นคนที่มุ่งมั่นมาก และเป็นคนที่ตรงต่อเวลาเสมอ ผมเข้าเรียน IT เพราะว่าผมชื่นชอบการเขียนโปรแกรมพัฒนาเว็บไซต์ โดยเฉพาะ Fontend <br> <br>
+            &nbsp;&nbsp;&nbsp;ผมจึงได้ค้นคว้าหาความรู้เพิ่มเติมด้วยตนเองเสมอ เพื่อให้สามารถพัฒนาเว็บไซต์ได้ตามที่ต้องการ แม้ว่าจะเจอ error บ้าง แต่มันทำให้ผมได้เรียนรู้วิธีแก้ปัญหามากขึ้นเรื่อยๆได้เรียนรู้วิธีในการหาคำตอบของปัญหาที่เจอ ซึ่งทำให้เจอข้อผิดพลาดน้อยลงและแก้ไขได้อย่างรวดเร็วยิ่งขึ้น  <br><br>
+            &nbsp;&nbsp;&nbsp;เป้าหมายสูงสุดในตอนนี้ของผมก้คือ การพัฒนาหาความรู้ในอาชีพ Web developer และสามารถสร้างเว็บไซต์ได้ตามอย่างใจนึก </p>
         </div>
         <!-- end  personality -->
 
+
+
+
         <!-- Skills -->
-        <div class="col-6 col-sm-6">
+        <div class="col-12 col-sm-6">
           <!-- <span class="badge  badge-dark" id="badge-topic">Skills</span> -->
           <h1 class="badge badge-dark" style="font-size: 1vw">Skills</h1>
           <hr />
@@ -145,7 +172,7 @@
               <p>Fontend</p>
               <hr />
               <ul>
-                <li><i class="fab fa-html5" style="color:orange"></i> HTML</li>
+                <li><i class="fab fa-html5"></i> HTML</li>
                 <li><i class="fab fa-css3-alt"></i> CSS</li>
                 <li><i class="fab fa-js-square"></i> JavaScript</li>
                 <li><i class="fab fa-vuejs"></i> Vue.js</li>
@@ -158,9 +185,9 @@
               <ul>
                 <li><i class="fab fa-php"></i> PHP</li>
                 <li><i class="fab fa-node"></i> Node.js</li>
-                <li><img src='img/prog_flask.png' style="width:20px;height:20px;">  Flask</li>
-                <li><img src='img/sql.png' style="width:20px;height:20px;"> MySQL</li>
-                <li><img src='img/mongodb.png' style="width:20px;height:20px;"> MongoDB</li>
+                <li>Flask</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
               </ul>
             </div>
 
@@ -169,8 +196,8 @@
               <hr />
               <ul>
                 <li><i class="fab fa-python"></i> Python</li>
-                <li><img src='img/c-programming-569564.png' style="width:20px;height:20px;"> C</li>
                 <li><i class="fab fa-java"></i> Java</li>
+                <li>C</li>
               </ul>
             </div>
           </div>
@@ -182,7 +209,7 @@
           <h1 class="badge badge-dark" style="font-size: 1vw">Projects</h1>
           <hr />
           <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <a
                     href="https://ss-demo.000webhostapp.com/index.php"
                     target="_blank"
@@ -200,25 +227,32 @@
               </div>
               </a>
             </div>
-            <div class="col-4">
-              <div class="card">
-                <img class="card-img-top" src="img/nsc.PNG" alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title">NSC Thai Cyberbullying Detection</h5>
-              
-                </div>
-              </div>
-            </div>
 
-            <div class="col-4">
-              <div class="card">
-                <img class="card-img-top" src="img/senior.PNG" alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title">Senior Project Thai Cyberbullying Detection on Twitter</h5>
-                 
-             
+            
+            <div class="col-12 col-sm-6 col-md-4">
+              <a href="https://github.com/OSS98/NSC_CyberbullyingDetection" target="_blank">
+                <div class="card">
+                  <img class="card-img-top" src="img/nsc.PNG" alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">NSC Thai Cyberbullying Detection</h5>
+                  </div>
                 </div>
-              </div>
+              </a>
+              
+            </div>
+            
+            
+
+            <div class="col-12 col-sm-6 col-md-4">
+              <a href="https://github.com/OSS98/SeniorProject" target="_blank">
+                <div class="card">
+                  <img class="card-img-top" src="img/senior.PNG" alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">Senior Project Thai Cyberbullying Detection on Twitter</h5>
+                  </div>
+                </div>
+              </a>
+              
             </div>
           <!-- end projects -->
 
@@ -228,7 +262,7 @@
               <hr>
             </div>
 
-            <div class="col-12" style="margin-bottom: 1rem;">
+            <div id="cerpic"class="col-12" style="margin-bottom: 1rem;">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
